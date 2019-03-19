@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+นี่จะเป็นการเข้าถึง bot API ของทางธนาคารแห่งประเทศไทย โดยเขียนด้วย Javascript และใช้ angular ดึงไปใช้
+
+คุณสามารถเข้าดูอัตราการแลกเปลี่ยนเงินตราของแต่ละประเทศได้ โดยทำตามวิธีการติดตั้งด้านบน แล้วก็เข้าไปแก้ไข Code ที่หน้า index.html แล้วแก้ตรงส่วน
+<script type="text/javascript" src="/assets/function.js?ClientId=yourClientId"></script>
+โดย yourClientId สามารถไปสมัคร และรับได้ที่เว็บของธนาคารแห่งประเทศไทย โดยทำตาม Getting started ในเว็บ https://apiportal.bot.or.th/bot/public/
